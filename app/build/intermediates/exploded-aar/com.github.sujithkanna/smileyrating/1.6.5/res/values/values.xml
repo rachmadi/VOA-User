@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SmileRating"><attr format="color" name="angryColor"/><attr format="color" name="normalColor"/><attr format="color" name="drawingColor"/><attr format="boolean" name="showLine"/><attr format="color" name="placeHolderSmileColor"/><attr format="color" name="placeHolderBackgroundColor"/><attr format="color" name="textSelectionColor"/><attr format="color" name="textNonSelectionColor"/></declare-styleable>
+    <string name="app_name">SmileRating</string>
+</resources>

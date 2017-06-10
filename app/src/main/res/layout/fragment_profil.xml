@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#fff">
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:orientation="vertical"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/ivUserProfilePicture"
+                android:src="@drawable/user"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"/>
+
+            <!-- USERNAME -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12sp"
+                android:textSize="20sp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:text="Fredy Setiawan CH"
+                android:textAlignment="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="16sp"
+                android:textColor="#fff"
+                android:text="fredych@bca.com"
+                android:layout_marginBottom="20dp"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fff"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:paddingTop="18dp"
+            android:paddingBottom="9dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_action_email"
+                android:scaleType="centerCrop"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_email_title"
+                    android:layout_marginLeft="12sp"
+                    android:textColor="#212121"
+                    android:textSize="16sp"
+                    android:text="Email" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="fredych123@gmail.com"
+                    android:textSize="14sp"
+                    android:id="@+id/tv_email_content"
+                    android:layout_marginLeft="12sp"
+                    android:layout_below="@+id/tv_email_title"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="65dp"
+            android:background="#f4f4f4"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fff"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_action_phone"
+                android:scaleType="centerCrop"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_contact_title"
+                    android:layout_marginLeft="12sp"
+                    android:textColor="#212121"
+                    android:textSize="16sp"
+                    android:text="No. Telepon" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="082282510664"
+                    android:textSize="14sp"
+                    android:id="@+id/tv_contact_content"
+                    android:layout_marginLeft="12sp"
+                    android:layout_below="@+id/tv_contact_title"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginLeft="65dp"
+            android:background="#f4f4f4"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#fff"
+            android:paddingLeft="22dp"
+            android:paddingRight="22dp"
+            android:paddingTop="9dp"
+            android:paddingBottom="9dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="center_vertical"
+                app:srcCompat="@drawable/ic_action_dialpad"
+                android:scaleType="centerCrop"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_pin_title"
+                    android:layout_marginLeft="12sp"
+                    android:textColor="#212121"
+                    android:textSize="16sp"
+                    android:text="PIN" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="1234"
+                    android:textSize="14sp"
+                    android:id="@+id/tv_pin_content"
+                    android:layout_marginLeft="12sp"
+                    android:layout_below="@+id/tv_pin_title"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:background="#37474f"
+            android:layout_margin="4dp"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/colorPrimaryDark"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Total Kuota"
+                    android:textStyle="bold"
+                    android:gravity="center_horizontal"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rp. 2.000.000,-"
+                    android:textSize="18sp"
+                    android:gravity="center_horizontal"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="30dp"
+                android:layout_gravity="center">
+
+                <com.hookedonplay.decoviewlib.DecoView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerVertical="true"
+                    android:id="@+id/dynamicArcView"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true"
+                    android:textStyle="bold"
+                    android:textColor="#fff"
+                    android:text="75%"/>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:background="#f44336"
+                    android:layout_gravity="center_vertical">
+                    <TextView
+                        android:textColor="#fff"
+                        android:id="@+id/tv_profil_usage_quota_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Kuota Terpakai"
+                        android:gravity="center_horizontal"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:id="@+id/tv_profil_usage_quota_content"
+                        android:layout_below="@id/tv_profil_usage_quota_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Rp. 250.000,-"
+                        android:gravity="center"
+                        android:textSize="18sp"/>
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="20dp"
+                    android:background="#4caf50"
+                    android:layout_gravity="center_vertical">
+                    <TextView
+                        android:textColor="#fff"
+                        android:id="@+id/tv_profil_current_quota_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Sisa Kuota"
+                        android:gravity="center"
+                        android:textStyle="bold"/>
+
+                    <TextView
+                        android:textColor="#fff"
+                        android:id="@+id/tv_profil_current_quota_content"
+                        android:layout_below="@id/tv_profil_current_quota_title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:text="Rp 1.750.000,-"
+                        android:gravity="center"/>
+                </RelativeLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

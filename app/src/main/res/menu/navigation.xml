@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_order"
+        android:icon="@drawable/ic_action_car"
+        android:title="@string/title_order" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@drawable/ic_action_person"
+        android:title="@string/title_profile" />
+
+    <item
+        android:id="@+id/navigation_message"
+        android:icon="@drawable/ic_action_picture"
+        android:title="@string/title_reimburse" />
+
+</menu>

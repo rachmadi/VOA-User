@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context="id.ac.mdp.voa.activities.OrderHourlyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@color/colorPrimaryDark">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order Sebagai : "
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:padding="8dp"/>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sp_order_pic_hourly">
+
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pilih Lokasi"
+                        android:textStyle="bold"
+                        android:textColor="#fff"/>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:textColor="#fff"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/ic_action_location"/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:id="@+id/fromPosition"
+                            android:background="?attr/selectableItemBackground"
+                            android:text="Pilih titik awal"
+                            android:paddingLeft="8dp"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="16dp"
+                            android:maxLines="1"
+                            android:textColor="#afffffff"
+                            android:paddingBottom="16dp"
+                            android:clickable="true"
+                            android:layout_width="match_parent"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="1dp"
+                            android:background="#fff"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:textStyle="bold"
+                            android:textColor="#fff"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/ic_action_location"/>
+                        <TextView
+                            android:clickable="true"
+                            android:id="@+id/toPosition"
+                            android:layout_weight="1"
+                            android:paddingLeft="8dp"
+                            android:background="?attr/selectableItemBackground"
+                            android:text="Pilih Tujuan"
+                            android:maxLines="1"
+                            android:paddingTop="16dp"
+                            android:textColor="#afffffff"
+                            android:paddingBottom="16dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/mapPreview"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tanggal"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jam"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:id="@+id/tvOrderHourlyDate"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="05/04/2017"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:id="@+id/tvOrderHourlyTime"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="16:00"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#eee"/>
+            </LinearLayout>
+
+            <!--<LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jam Pickup"
+                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_time"
+                        android:layout_gravity="center_vertical"/>
+                    <TextView
+                        android:clickable="true"
+                        android:id="@+id/tvOrderHourlyTimePickup"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="16:08"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:textAlignment="center"/>
+                </LinearLayout>-->
+
+            <!--<TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jam Sampai"
+                android:textStyle="bold"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_time"
+                    android:layout_gravity="center_vertical"/>
+                <TextView
+                    android:clickable="true"
+                    android:id="@+id/tvOrderHourlyTimeTo"
+                    android:background="?attr/selectableItemBackground"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="16:08"
+                    android:paddingTop="20dp"
+                    android:paddingBottom="20dp"
+                    android:textAlignment="center"/>
+            </LinearLayout>
+
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eee"/>
+            </LinearLayout>-->
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jadwal"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="20dp"/>
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TableRow>
+                        <CheckBox
+                            android:id="@+id/cbSenin"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Senin" />
+                        <CheckBox
+                            android:id="@+id/cbSelasa"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Selasa" />
+                        <CheckBox
+                            android:id="@+id/cbRabu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Rabu" />
+                    </TableRow>
+                    <TableRow>
+
+
+                        <CheckBox
+                            android:id="@+id/cbKamis"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Kamis" />
+                        <CheckBox
+                            android:id="@+id/cbJumat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Jumat" />
+                        <CheckBox
+                            android:id="@+id/cbSabtu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Sabtu" />
+
+                    </TableRow>
+
+                    <TableRow>
+
+
+                        <CheckBox
+                            android:id="@+id/cbMinggu"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1"
+                            android:text="Minggu" />
+
+                        <View
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"/>
+
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_marginTop="20dp"
+                        android:paddingBottom="20dp">
+                        <android.support.v7.widget.SwitchCompat
+                            android:layout_gravity="start"
+                            android:id="@+id/sw_order_hourly_repeat"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <TextView
+                            android:text="Rutin"
+                            android:layout_marginLeft="-20sp"
+                            android:layout_gravity="center_vertical|start"
+                            android:textColor="#212121"/>
+                    </TableRow>
+                </TableLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#eee"/>
+
+                <TextView
+                    android:id="@+id/tvUntilTitle"
+                    android:layout_marginTop="16dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hingga"
+                    android:visibility="gone"
+                    android:textStyle="bold"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:id="@+id/ll_until_container"
+                    android:visibility="gone">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_calendar"
+                        android:layout_gravity="center_vertical"/>
+                    <TextView
+                        android:clickable="true"
+                        android:id="@+id/tvOrderHourlyDateTo"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="05/04/2017"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:textAlignment="center"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#eee"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Durasi"
+                        android:textStyle="bold"/>
+                    <Spinner
+                        android:layout_marginLeft="12dp"
+                        android:id="@+id/sp_order_duration_hourly_activity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </Spinner>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aktivitas"
+                        android:textStyle="bold"/>
+                    <!--<EditText
+                        android:layout_marginLeft="12dp"
+                        android:layout_marginRight="12dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"/>-->
+                    <Spinner
+                        android:layout_marginLeft="12dp"
+                        android:id="@+id/sp_order_hourly_activity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </Spinner>
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

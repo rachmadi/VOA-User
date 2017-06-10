@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#fff"
+    android:layout_height="match_parent"
+    tools:context="id.ac.mdp.voa.activities.OrderDailyActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="@color/colorPrimaryDark">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Order Sebagai : "
+                    android:textColor="#fff"
+                    android:textStyle="bold"
+                    android:padding="8dp"/>
+
+                <Spinner
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/sp_order_pic_daily"
+                    style="@style/SpinnerTheme">
+
+                </Spinner>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:background="@color/colorPrimary"
+                android:orientation="vertical">
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Pilih Lokasi"
+                        android:textStyle="bold"
+                        android:textColor="#fff"/>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:textStyle="bold"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:textColor="#fff"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/ic_action_location"/>
+                        <TextView
+                            android:layout_weight="1"
+                            android:id="@+id/tvOrderDailyFromPosition"
+                            android:background="?attr/selectableItemBackground"
+                            android:text="Pilih titik awal"
+                            android:paddingLeft="8dp"
+                            android:layout_height="wrap_content"
+                            android:paddingTop="16dp"
+                            android:maxLines="1"
+                            android:textColor="#afffffff"
+                            android:paddingBottom="16dp"
+                            android:clickable="true"
+                            android:layout_width="match_parent"/>
+                    </TableRow>
+
+                    <TableRow>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_weight="1"
+                            android:layout_height="1dp"
+                            android:background="#fff"/>
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="20dp"
+                            android:layout_gravity="center_horizontal|center_vertical"
+                            android:textStyle="bold"
+                            android:textColor="#fff"
+                            android:layout_marginRight="8dp"
+                            android:src="@drawable/ic_action_location"/>
+                        <TextView
+                            android:clickable="true"
+                            android:id="@+id/tvOrderDailyToPosition"
+                            android:layout_weight="1"
+                            android:paddingLeft="8dp"
+                            android:background="?attr/selectableItemBackground"
+                            android:text="Pilih Tujuan"
+                            android:maxLines="1"
+                            android:paddingTop="16dp"
+                            android:textColor="#afffffff"
+                            android:paddingBottom="16dp"
+                            android:layout_height="wrap_content"
+                            android:layout_width="match_parent"/>
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Tanggal"
+                        android:textStyle="bold"/>
+                    <TextView
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Jam"
+                        android:textStyle="bold"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:id="@+id/tvOrderHourlyDate"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="05/04/2017"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:textAlignment="center"/>
+                    <TextView
+                        android:layout_weight="1"
+                        android:clickable="true"
+                        android:id="@+id/tvOrderHourlyTime"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="16:00"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#eee"/>
+            </LinearLayout>
+
+<!--
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/ivOrderDailyMapPreview"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Tanggal Order"
+                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_calendar"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_width="50sp"
+                        android:layout_height="wrap_content"
+                        android:text="Dari"/>
+
+                    <TextView
+                        android:id="@+id/tvOrderDailyDateFrom"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="20dp"
+                        android:text="05/04/2017"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_calendar"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_width="50sp"
+                        android:layout_height="wrap_content"
+                        android:text="Sampai"/>
+
+                    <TextView
+                        android:id="@+id/tvOrderDailyDateTo"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/selectableItemBackground"
+                        android:clickable="true"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="20dp"
+                        android:text="06/04/2017"
+                        android:textAlignment="center" />
+
+                </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#eee"/>
+            </LinearLayout>
+-->
+            <!--
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Jam"
+                    android:textStyle="bold"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_time"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_width="50sp"
+                        android:layout_height="wrap_content"
+                        android:text="Dari"/>
+
+                    <TextView
+                        android:clickable="true"
+                        android:id="@+id/tvOrderDailyTime"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="16:08"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:textAlignment="center"/>
+                </LinearLayout>
+                </LinearLayout>
+-->
+                <!--<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_action_time"
+                        android:layout_gravity="center_vertical"/>
+
+                    <TextView
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="16dp"
+                        android:layout_width="50sp"
+                        android:layout_height="wrap_content"
+                        android:text="Sampai"/>
+
+                    <TextView
+                        android:clickable="true"
+                        android:id="@+id/tvOrderDailyTimeTo"
+                        android:background="?attr/selectableItemBackground"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="12:00"
+                        android:paddingTop="20dp"
+                        android:paddingBottom="20dp"
+                        android:textAlignment="center"/>
+                </LinearLayout>-->
+<!--
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#eee"/>
+-->
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="20dp"
+                    android:paddingRight="20dp">
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="20dp"
+                        android:paddingTop="20dp"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Jenis Mobil"
+                            android:textStyle="bold"/>
+                        <Spinner
+                            android:layout_marginLeft="12dp"
+                            android:id="@+id/sp_order_car_type_daily_activity"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+                        </Spinner>
+                    </LinearLayout>
+
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#eee"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Jenis Trip"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="8dp"/>
+
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:checkedButton="@+id/rb_trip_1">
+                    <RadioButton
+                        android:id="@+id/rb_trip_1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Menginap"
+                        android:textColor="#757575"/>
+                    <RadioButton
+                        android:layout_marginLeft="16dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Tidak menginap"
+                        android:textColor="#757575"/>
+                </RadioGroup>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#eee"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="20dp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Paket"
+                        android:textStyle="bold"
+                        android:layout_marginBottom="8dp"/>
+
+                    <RadioGroup
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:checkedButton="@+id/rb_paket_1">
+                        <RadioButton
+                            android:id="@+id/rb_paket_1"
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="8 Jam"
+                            android:textColor="#757575"/>
+                        <RadioButton
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="12 Jam"
+                            android:textColor="#757575"/>
+                        <RadioButton
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:text="24 Jam"
+                            android:textColor="#757575"/>
+                    </RadioGroup>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Aktivitas"
+                        android:textStyle="bold"/>
+                    <Spinner
+                        android:layout_marginLeft="12dp"
+                        android:id="@+id/sp_order_daily_activity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                    </Spinner>
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
+

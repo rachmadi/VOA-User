@@ -1,0 +1,121 @@
+<resources>
+    <string name="app_name">VOA</string>
+    <string name="title_order">Order</string>
+    <string name="title_profile">Profile</string>
+    <string name="title_reimburse">Reimburse</string>
+    <string name="title_message">Pesan</string>
+    <string name="server_key">AIzaSyD0Sntn9DyXQmvJH5xr9xRfClQlLtqhuIg</string>
+
+    <string name="activity_main_title_bottom_menu_order">Order</string>
+    <string name="activity_main_title_bottom_menu_chat">Pesan</string>
+    <string name="activity_main_title_bottom_menu_profile">Profil</string>
+
+    <!-- String untuk ActivityTambahOrder -->
+    <string name="btn_send">Kirim</string>
+
+    <!-- String untuk ActivityEditProfil -->
+    <string name="btn_save">Simpan</string>
+    <string name="title_activity_order_detail">ActivityOrderDetail</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_activity_map">Map</string>
+    <string name="title_activity_maps">Peta Perjalanan</string>
+
+
+    <string-array name="image_ids">
+        <item>@drawable/image_1</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_5</item>
+        <item>@drawable/image_6</item>
+        <item>@drawable/image_7</item>
+        <item>@drawable/image_8</item>
+        <item>@drawable/image_9</item>
+        <item>@drawable/image_1</item>
+        <item>@drawable/image_2</item>
+        <item>@drawable/image_3</item>
+        <item>@drawable/image_4</item>
+        <item>@drawable/image_5</item>
+        <item>@drawable/image_6</item>
+        <item>@drawable/image_7</item>
+        <item>@drawable/image_8</item>
+        <item>@drawable/image_9</item>
+    </string-array>
+
+    <string-array name="activity_name">
+        <item>Rapat</item>
+        <item>Lembur</item>
+        <item>Dinas</item>
+        <item>Kunjungan Kerja</item>
+    </string-array>
+
+    <string-array name="user_name">
+        <item>Tengku Kevin</item>
+        <item>Marhadi Wijaya</item>
+        <item>Bhagaskara Lie</item>
+    </string-array>
+
+    <string-array name="car_type_list">
+        <item>Avanza</item>
+        <item>Innova Diesel</item>
+        <item>Innova Bensin</item>
+    </string-array>
+
+    <string-array name="order_duration">
+        <item>1 Jam</item>
+        <item>2 Jam</item>
+        <item>3 Jam</item>
+        <item>4 Jam</item>
+        <item>5 Jam</item>
+        <item>6 Jam</item>
+        <item>7 Jam</item>
+        <item>8 Jam</item>
+        <item>9 Jam</item>
+        <item>10 Jam</item>
+        <item>11 Jam</item>
+        <item>12 Jam</item>
+    </string-array>
+
+    <string-array name="kcu_list">
+        <item>GREEN GARDEN</item>
+        <item>SURYOPRANOTO</item>
+        <item>DAAN MOGOT</item>
+    </string-array>
+
+    <string-array name="kcp_list">
+        <item>PURI INDAH</item>
+    </string-array>
+
+    <string-array name="nopol_list">
+        <item>B1094WOC</item>
+        <item>B1269WOC</item>
+        <item>B1288FRC</item>
+        <item>B1305FRC</item>
+        <item>B1305FRC</item>
+    </string-array>
+
+
+    <string name="key_binding_default_toolbar_name">Modal-Toolbar-Title</string>
+
+    <string name="dummy_text">Licensed under the Apache License, Version 2.0 (the "License");
+you may not use this file except in compliance with the License.
+You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software
+distributed under the License is distributed on an "AS IS" BASIS,
+WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+See the License for the specific language governing permissions and
+limitations under the License. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo.\n\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo."</string>
+
+
+    <string name="BackDropBottomSheetBehavior">id.ac.mdp.voa.lib.BackdropBottomSheetBehavior</string>
+    <string name="BottomSheetBehaviorGoogleMapsLike">id.ac.mdp.voa.lib.BottomSheetBehaviorGoogleMapsLike</string>
+    <string name="ScrollAwareFABBehavior">id.ac.mdp.voa.lib.ScrollAwareFABBehavior</string>
+    <string name="MergedAppBarLayoutBehavior">id.ac.mdp.voa.lib.MergedAppBarLayoutBehavior</string>
+    <string name="ScrollingAppBarLayoutBehavior">id.ac.mdp.voa.lib.ScrollingAppBarLayoutBehavior</string>
+
+</resources>

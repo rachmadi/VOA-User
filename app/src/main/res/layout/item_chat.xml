@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="?attr/selectableItemBackground"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:id="@+id/cardview_chat"
+            android:layout_marginTop="10sp"
+            android:layout_marginBottom="10sp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/profil"
+                android:scaleType="centerCrop"
+                android:id="@+id/img_cardview_chat_usr_profile"
+                android:layout_marginLeft="10sp"/>
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tv_cardview_chat_username"
+                    android:layout_marginLeft="12sp"
+                    android:textSize="16sp"
+                    android:textColor="#212121"
+                    android:layout_marginBottom="2dp"
+                    android:text="John Mickley" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textColor="#616161"
+                    android:layout_height="wrap_content"
+                    android:text="ajsndasdnaksdkasdnakdsnaksdnandsnkasdasdkansdkands"
+                    android:textSize="14sp"
+                    android:maxLines="2"
+                    android:maxWidth="180dp"
+                    android:id="@+id/tv_cardview_chat_address"
+                    android:layout_marginLeft="12sp"
+                    android:layout_below="@+id/tv_cardview_chat_username"/>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginRight="16dp"
+                    android:text="16:20"
+                    android:textSize="11sp"
+                    android:maxLines="1"
+                    android:id="@+id/tv_cardview_chat_time"
+                    android:layout_marginLeft="10sp"/>
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginLeft="70dp"
+        android:layout_height="1dp"
+        android:background="#f4f4f4"/>
+
+</LinearLayout>
