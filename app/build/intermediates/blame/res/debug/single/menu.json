@@ -1,0 +1,166 @@
+[
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/order_hourly.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/order_hourly.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/order_detail.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/order_detail.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/notification.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/notification.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/order.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/order.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/add_order.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/add_order.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/reimburse.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/reimburse.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/order_additional_driver.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/order_additional_driver.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/order_daily.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/order_daily.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/chat_list.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/chat_list.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/navigation.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/navigation.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/navigation.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/navigation.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/order_detail.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/order_detail.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/order_additional_driver.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/order_additional_driver.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/notification.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/notification.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/profil.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/profil.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/profil.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/profil.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/order_detail_toolbar.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/order_detail_toolbar.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/reimburse.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/reimburse.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/order_detail.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/order_detail.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/notification.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/notification.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/chat_list.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/chat_list.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/order_hourly.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/order_hourly.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/rating_menu.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/rating_menu.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/edit_profil.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/edit_profil.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/order.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/order.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/profil.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/profil.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/order_detail_toolbar.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/order_detail_toolbar.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/edit_profil.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/edit_profil.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/order_additional_driver.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/order_additional_driver.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/navigation.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/navigation.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/rating_menu.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/rating_menu.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/menu/add_order.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/menu/add_order.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/order_hourly.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/order_hourly.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/edit_profil.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/edit_profil.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/order_detail_toolbar.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/order_detail_toolbar.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/order.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/order.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/order_daily.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/order_daily.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/order_daily.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/order_daily.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/menu/add_order.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/menu/add_order.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/chat_list.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/chat_list.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/menu/reimburse.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/menu/reimburse.xml"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    }
+]

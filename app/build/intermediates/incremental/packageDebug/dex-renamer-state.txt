@@ -1,0 +1,7 @@
+#Sat Jun 03 22:08:29 WIB 2017
+base.0=/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_98bbeab930f981965e67b35a679951aa40ee5625
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4ee3a6c3d3098b4b231611944b5555d6d1a2cfb9/classes.dex
+base.1=/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4ee3a6c3d3098b4b231611944b5555d6d1a2cfb9
+file.0=/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_98bbeab930f981965e67b35a679951aa40ee5625/classes.dex

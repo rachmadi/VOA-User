@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+
+    <TextView
+        android:text="Beri Nilai Driver ini"
+        android:id="@+id/rank_dialog_text1"
+        android:layout_gravity="center_horizontal"
+        android:textSize="18dp"
+        android:textColor="#212121"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <!--<android.support.v7.widget.AppCompatRatingBar
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:id="@+id/dialog_ratingbar"
+        android:layout_gravity="center"
+        android:numStars="5"
+        android:stepSize="1"
+        android:rating="0"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:isIndicator="false"/>-->
+
+    <com.hsalf.smilerating.SmileRating
+        android:id="@+id/smile_rating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Memuaskan"
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:text="Tulis Ulasan"
+        android:textColor="#616161"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/rank_dialog_button"
+        android:layout_height="wrap_content"
+        android:text="Kirim"
+        android:layout_gravity="center_horizontal"
+        android:focusable="false"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_margin="5dip"
+        android:textSize="16sp"
+        android:layout_width="wrap_content" />
+
+</LinearLayout>

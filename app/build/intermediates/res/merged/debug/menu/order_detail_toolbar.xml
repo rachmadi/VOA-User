@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item
+        android:id="@+id/action_insert_key"
+        android:orderInCategory="100"
+        android:title="Validasi"
+        android:icon="@drawable/ic_action_dialpad"
+        app:showAsAction="always"></item>-->
+
+    <item
+        android:id="@+id/navigation_cancel_order"
+        android:icon="@drawable/ic_action_block"
+        app:showAsAction="never"
+        android:title="Batal Order" />
+
+</menu>

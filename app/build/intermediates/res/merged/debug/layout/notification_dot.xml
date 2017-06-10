@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/notificationBaloonArea"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    style="@android:style/Widget.ActionButton"
+    android:gravity="center"
+    android:minWidth="32dp"
+    android:minHeight="32dp">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/notificationBaloon"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        android:contentDescription="Notification"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="17sp"
+        android:textSize="12sp"
+        android:textColor="#ffffffff"
+        android:text="@null"
+        android:layout_alignTop="@id/notificationBaloon"
+        android:layout_alignRight="@id/notificationBaloon"
+        android:layout_marginRight="0dp"
+        android:layout_marginTop="3dp"
+        android:paddingBottom="1dp"
+        android:paddingRight="4dp"
+        android:paddingLeft="4dp"
+        android:background="@drawable/shape_notification"
+        android:id="@+id/notificationBaloonNumber"
+        android:gravity="center"
+        android:layout_margin="0dp"
+        android:contentDescription="Notification"/>
+
+</RelativeLayout>

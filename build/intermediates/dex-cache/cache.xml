@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-25.1.0_7d66ffb300d4f03dc60a9bdbb670a7b1a0aab240/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-25.1.0_2b34e42cc80a61aaf87e32cc3689a79860a3abb1.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/support-annotations-25.1.0_0c12b18a1fad4fb6bddba74661fc8e2f95ceee61.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support.constraint-constraint-layout-1.0.2_18b14e807b85e145bf7d0099bb410ab9957ed4d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-25.1.0_28ac6e02eda8fb306a392eee9cc12e04667f7b85.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-10.0.1_420d7d4550f5bd5ed02316dfee85d194d6eb4842/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-fragment-25.1.0_4a6d259e09b35ded96696e248f55a7c69773141d.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_bad18095fd8eb649ca2322a55e37e221e4ca5dd5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.github.ozodrukh/CircularReveal/1.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3a3d62fab67ccb83f386a4c092bfb5747ea15a7">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.github.ozodrukh-CircularReveal-1.1.1_c876c3d7994da474cb42b8da9a7cec2ad925818b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/uk.co.samuelwall/material-tap-target-prompt/1.8.3/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0767473b28a5f74d11d7ddcae62b319896d0e5d">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/uk.co.samuelwall-material-tap-target-prompt-1.8.3_2cc7587f56f3fd0403a177295ef7a9568fb07795/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.github.sujithkanna/smileyrating/1.6.5/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c55b9c2a9fd2729d2eeee6edfac4001821b50d32">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.sujithkanna-smileyrating-1.6.5_471167ac6fabfff0945512fd686a3ea535771009/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.2_800f2cc208dbdfd3ce36ae82fc2c8a487bc1c05c/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-basement-10.0.1_b54b0825008512911ca76f2a206c68ac285030e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.github.bmarrdev/android-DecoView-charting/v1.2/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d3db3fc2b65bcb63276a455085d4f4884cdadb44">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.github.bmarrdev-android-DecoView-charting-v1.2_fb8e5ab59cdc210639921e1e7044b2394b00cdf5.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-25.1.0_4370553e8f0e0f443541b1a012efd0c85ad26953/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="59bbc0bdcad0e611c8336bac06e38ab3d42e5ff7">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_4ee3a6c3d3098b4b231611944b5555d6d1a2cfb9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-25.1.0_4efad6bf219f236d0d26dd7da28d886dd5828d07/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-media-compat-25.1.0_1c9da6c85f69b643aa5856a8ed94eca385899e31.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-10.0.1_c7f94872f83245ef0bd2114983ff6341207c1cdc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-compat-25.1.0_2fcfa37201e790bb401245ed4a109fab75f6c0f7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-10.0.1_8e23d97177d758768cb051c4dbcfde389dc664f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-ui-25.1.0_511df2a0996d78f260a43b519dec7be497236a79.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support-transition-25.1.0_287e6c08cfc7e58587ee4c438a38dcc440741d6d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support-animated-vector-drawable-25.1.0_99afa3c151e7ce0841c093cc20765e3f6167cc3b.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-utils-25.1.0_2e5f510a176f9ac29e2e20214ebfa8421a17ea7b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/library-2.4.0_8e55a8dcc515c7bc336bb0164b3331d265ab0342.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-10.0.1_e6e3b5003dcbd29d842e2633d5367b7567e9bf0f/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/de.hdodenhof-circleimageview-2.1.0_614b738372756b7b5e7f0067f07fa33f77456f02.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.2_18b14e807b85e145bf7d0099bb410ab9957ed4d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.1.0/support-annotations-25.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="64cb6b229a8bdfd907bc8dd46839a0053e4c018d">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.1.0_0c12b18a1fad4fb6bddba74661fc8e2f95ceee61/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_98bbeab930f981965e67b35a679951aa40ee5625/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-25.1.0_2b34e42cc80a61aaf87e32cc3689a79860a3abb1/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_800f2cc208dbdfd3ce36ae82fc2c8a487bc1c05c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30103d98fa5ed824b54af839c85e2111f9bde8ec">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support-design-25.1.0_7d66ffb300d4f03dc60a9bdbb670a7b1a0aab240.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b266c8faa5af72e579b9da36ef35053ffed6ac64">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-25.1.0_28ac6e02eda8fb306a392eee9cc12e04667f7b85/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2a53c4f3518116b8c6aee0e477233f0f7da8616f">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-fragment-25.1.0_4a6d259e09b35ded96696e248f55a7c69773141d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/uk.co.samuelwall/material-tap-target-prompt/1.8.3/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d0767473b28a5f74d11d7ddcae62b319896d0e5d">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/uk.co.samuelwall-material-tap-target-prompt-1.8.3_2cc7587f56f3fd0403a177295ef7a9568fb07795.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/glide-3.7.0_bad18095fd8eb649ca2322a55e37e221e4ca5dd5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="25438f55fc6d906a0e72f30b21487541430ede43">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-base-10.0.1_420d7d4550f5bd5ed02316dfee85d194d6eb4842.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="756f6297eef79784f5e356dcd4f39865028b2bd0">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-10.0.1_b54b0825008512911ca76f2a206c68ac285030e2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.github.ozodrukh/CircularReveal/1.1.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e3a3d62fab67ccb83f386a4c092bfb5747ea15a7">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.ozodrukh-CircularReveal-1.1.1_c876c3d7994da474cb42b8da9a7cec2ad925818b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ca3c7aa31e2726a400a6e552b93cb9f63c9a1e6d">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-compat-25.1.0_2fcfa37201e790bb401245ed4a109fab75f6c0f7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1630658fbc2d222b988603c27b4a4249586fbfe7">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-25.1.0_4efad6bf219f236d0d26dd7da28d886dd5828d07.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.github.sujithkanna/smileyrating/1.6.5/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c55b9c2a9fd2729d2eeee6edfac4001821b50d32">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.github.sujithkanna-smileyrating-1.6.5_471167ac6fabfff0945512fd686a3ea535771009.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e79aa3d9a16f8c9f16377c0608de70a8f31e5d80">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-vector-drawable-25.1.0_4370553e8f0e0f443541b1a012efd0c85ad26953.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f02263e35e52668dd17b73bf961437e3d562b35f">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-media-compat-25.1.0_1c9da6c85f69b643aa5856a8ed94eca385899e31/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d38084015027549951cbaea5d5f6fb795cc81151">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-transition-25.1.0_287e6c08cfc7e58587ee4c438a38dcc440741d6d/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6addaba208e21c6da776d0ca75b6b23a6ccd5499">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-tasks-10.0.1_c7f94872f83245ef0bd2114983ff6341207c1cdc.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="aee64634871d88a419d59eb743c1258a60f19700">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-core-ui-25.1.0_511df2a0996d78f260a43b519dec7be497236a79/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="6fb6ac3e8d3b9013819920d9ea11f3803c4c0033">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-25.1.0_99afa3c151e7ce0841c093cc20765e3f6167cc3b/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f3e51e9c5233b8897f61e08a6a27bc36283c2724">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-places-10.0.1_8e23d97177d758768cb051c4dbcfde389dc664f1.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="a2af9c72ccaa4c5c049b500ca6ea664a4ce1f7d4">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/de.hdodenhof-circleimageview-2.1.0_614b738372756b7b5e7f0067f07fa33f77456f02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/library-2.4.0_8e55a8dcc515c7bc336bb0164b3331d265ab0342/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="27777b3cad3c20b1acab19f6e37fe3e03371bf6e">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.google.android.gms-play-services-maps-10.0.1_e6e3b5003dcbd29d842e2633d5367b7567e9bf0f.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.github.bmarrdev/android-DecoView-charting/v1.2/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d3db3fc2b65bcb63276a455085d4f4884cdadb44">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.bmarrdev-android-DecoView-charting-v1.2_fb8e5ab59cdc210639921e1e7044b2394b00cdf5/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="0a0ef86b7fa568a52bf6214a0326ca1f1d618da7">
+        <dex dex="/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/pre-dexed/debug/com.android.support-support-core-utils-25.1.0_2e5f510a176f9ac29e2e20214ebfa8421a17ea7b.jar" />
+    </item>
+
+</items>

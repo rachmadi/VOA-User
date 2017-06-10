@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/tengkukevin/Downloads/VOA-master/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/home/tengkukevin/Downloads/VOA-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/User/VOA/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    }
+]

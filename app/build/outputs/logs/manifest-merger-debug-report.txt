@@ -1,0 +1,270 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:1:39-57:12
+	package
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:2:1-24
+		INJECTED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:1:49-107
+	android:versionCode
+		INJECTED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:4:1-77
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:4:18-74
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:5:1-75
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:5:18-72
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:6:1-77
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:6:18-74
+uses-permission#android.permission.INTERNET
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:7:1-63
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/AndroidManifest.xml:20:5-66
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:7:18-60
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:8:1-75
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:8:18-72
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:9:1-72
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:9:18-69
+uses-permission#android.permission.CALL_PHONE
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:10:1-65
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:10:18-62
+uses-feature#android.hardware.camera
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:14:1-56
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:14:15-53
+uses-feature#android.hardware.camera.autofocus
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:15:1-66
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:15:15-63
+uses-permission#android.permission.CAMERA
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:17:1-61
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:17:18-58
+uses-feature#0x00020000
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:19:1-74
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/AndroidManifest.xml:21:5-77
+	android:glEsVersion
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:19:15-47
+	android:required
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:19:48-71
+application
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:21:1-55:15
+MERGED from [com.github.ozodrukh:CircularReveal:1.1.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.github.ozodrukh/CircularReveal/1.1.1/AndroidManifest.xml:10:5-20
+MERGED from [com.android.support:design:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.google.android.gms:play-services-places:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/AndroidManifest.xml:18:5-19
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/AndroidManifest.xml:24:5-19
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:18:5-20:19
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:19:5-21:19
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.github.bmarrdev/android-DecoView-charting/v1.2/AndroidManifest.xml:11:5-12:19
+MERGED from [com.github.sujithkanna:smileyrating:1.6.5] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.github.sujithkanna/smileyrating/1.6.5/AndroidManifest.xml:11:5-15:19
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-compat:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:25:5-20
+	android:label
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:21:76-108
+	android:supportsRtl
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:22:51-77
+	android:roundIcon
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:22:5-50
+	android:allowBackup
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:21:14-40
+	android:icon
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:21:41-75
+	android:theme
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:22:78-121
+meta-data#com.google.android.geo.API_KEY
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:23:5-99
+	android:value
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:23:62-96
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:23:16-61
+activity#id.ac.mdp.voa.activities.LoginActivity
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:25:5-32:16
+	android:label
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:25:56-88
+	android:windowSoftInputMode
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:26:9-50
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:25:15-55
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:27:9-31:25
+action#android.intent.action.MAIN
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:28:13-65
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:28:21-62
+category#android.intent.category.LAUNCHER
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:30:13-73
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:30:23-70
+activity#id.ac.mdp.voa.activities.MainActivity
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:33:5-89
+	android:theme
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:33:55-86
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:33:15-54
+activity#id.ac.mdp.voa.activities.OrderDetailActivity
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:34:5-35:97
+	android:label
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:34:62-90
+	android:parentActivityName
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:35:9-62
+	android:theme
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:35:63-94
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:34:15-61
+activity#id.ac.mdp.voa.activities.ChatActivity
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:36:5-37:43
+	android:parentActivityName
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:36:55-115
+	android:theme
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:37:9-40
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:36:15-54
+activity#id.ac.mdp.voa.activities.OrderHourlyActivity
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:38:5-39:97
+	android:label
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:38:62-88
+	android:parentActivityName
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:39:9-62
+	android:theme
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:39:63-94
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:38:15-61
+activity#id.ac.mdp.voa.activities.EditProfileActivity
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:40:5-41:122
+	android:label
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:40:62-89
+	android:parentActivityName
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:41:9-62
+	android:theme
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:41:63-119
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:40:15-61
+activity#id.ac.mdp.voa.activities.OrderDailyActivity
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:42:5-43:97
+	android:label
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:42:61-86
+	android:parentActivityName
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:43:9-62
+	android:theme
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:43:63-94
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:42:15-60
+activity#id.ac.mdp.voa.activities.OrderAdditionalDriverActivity
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:44:5-45:97
+	android:label
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:44:72-105
+	android:parentActivityName
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:45:9-62
+	android:theme
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:45:63-94
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:44:15-71
+activity#id.ac.mdp.voa.activities.OrderHistoryActivity
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:46:5-47:97
+	android:label
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:46:63-92
+	android:parentActivityName
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:47:9-62
+	android:theme
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:47:63-94
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:46:15-62
+activity#id.ac.mdp.voa.activities.ReimburseViewActivity
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:48:5-49:43
+	android:parentActivityName
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:48:64-117
+	android:theme
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:49:9-40
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:48:15-63
+activity#id.ac.mdp.voa.activities.RatingActivity
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:50:5-51:66
+	android:label
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:51:41-63
+	android:parentActivityName
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:50:57-112
+	android:theme
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:51:9-40
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:50:15-56
+activity#id.ac.mdp.voa.activities.MapsActivity
+ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:53:5-54:71
+	android:label
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:53:68-111
+	android:parentActivityName
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:54:9-69
+	android:name
+		ADDED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml:53:15-67
+uses-sdk
+INJECTED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.github.ozodrukh:CircularReveal:1.1.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.github.ozodrukh/CircularReveal/1.1.1/AndroidManifest.xml:6:5-8:41
+MERGED from [com.android.support:design:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/25.1.0/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/transition/25.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.2/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/de.hdodenhof/circleimageview/2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-places:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-maps:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/10.0.1/AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-base:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [com.google.android.gms:play-services-tasks:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/10.0.1/AndroidManifest.xml:3:5-42
+MERGED from [com.google.android.gms:play-services-basement:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:17:5-42
+MERGED from [uk.co.samuelwall:material-tap-target-prompt:1.8.3] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/uk.co.samuelwall/material-tap-target-prompt/1.8.3/AndroidManifest.xml:23:5-25:41
+MERGED from [com.github.bmarrdev:android-DecoView-charting:v1.2] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.github.bmarrdev/android-DecoView-charting/v1.2/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.sujithkanna:smileyrating:1.6.5] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.github.sujithkanna/smileyrating/1.6.5/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/25.1.0/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-v4/25.1.0/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-fragment/25.1.0/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-media-compat/25.1.0/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-core-ui/25.1.0/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-core-utils/25.1.0/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/25.1.0/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/25.1.0/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-compat:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/support-compat/25.1.0/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.1.0] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.android.support/design/25.1.0/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/src/main/AndroidManifest.xml
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:9-172
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:146-170
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:86-145
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/10.0.1/AndroidManifest.xml:19:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:66-119
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:10.0.1] /Users/rachmadi/Documents/BCA-VOA/AndroidProject/master/VOA-master/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/10.0.1/AndroidManifest.xml:20:20-65
